@@ -1,0 +1,1 @@
+You can use the same files for Real Movement or Motor Imagery. If you want to use both in the same experiment, it would be better to give them 2 different names, e.g. RealMovement.es2 and MotorImagery.es2
