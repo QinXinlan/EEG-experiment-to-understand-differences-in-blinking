@@ -7,12 +7,13 @@ This Brain-Computer Interface (BCI) experiment has been designed and carried out
 The goal of the present design is to find a blink model explaining the physiology by non-invasively recording various aspects of blinking, eye movements and their impacts on Electroencephalographic (EEG) signals. The hypothesis that eyelid movements substantially alter the EEG potential leads to the necessity to record the EEG, the eyelid position, as well as the eyeball movements. Hence, three devices were recording simultaneously, while the E-Prime software was sending triggers and displaying instructions on the Presentation screen.
 
 # Global setup
-2 computers: - one with Neuroscan and Phantom softwares
-             - one with E-Prime and Tobii softwares
-1 wifi router to provide a LAN network between computers (not mandatory but easier for automation)
-1 Arduino to convert the binary trigger from E-Prime to a square trigger for the high-speed camera
-1 StimTracker to convert light trigger to binary trigger readable by Tobii software
-lots of cables...
+* 2 computers: 
+  * one with Neuroscan and Phantom softwares
+  * one with E-Prime and Tobii softwares
+* 1 wifi router to provide a LAN network between computers (not mandatory but easier for automation)
+* 1 Arduino to convert the binary trigger from E-Prime to a square trigger for the high-speed camera
+* 1 StimTracker to convert light trigger to binary trigger readable by Tobii software
+* lots of cables...
 
 # EEG recording device: Neuroscan
 During this experiment, subjects were seated in an electrically-shielded noise-proof chamber, designed specifically for EEG recordings. A 65 channel Quik-cap acquired signals through a SynAmps2 system connected to an amplifier (Compumedics, Neuroscan). 62 EEG electrodes were placed according to the extended 10/20 system. The reference was located on the right mastoid with the ground electrode on the forehead. A bipolar vertical electrooculographic (EOG) channel records the potentials around the left eye, whereas two electromyographic (EMG) electrodes were attached at the middle of the upper and lower right eyelid. The EEG/EOG/EMG signals were recorded at a 1000 Hz sampling frequency directly on the Neuroscan software.
