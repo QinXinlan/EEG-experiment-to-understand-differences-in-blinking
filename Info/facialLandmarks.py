@@ -5,6 +5,9 @@ Created on Tue Sep  1 11:37:03 2020
 
 @author: qinxinlan
 """
+## Extract facial landmarks from subjects' pictures and calculate the five distances: 
+## Left and Right Eye Width, Inner Canthi Distance, Outer Canthi Distance, and Upper Nose to Lower Chin Distance.  
+## Used to create the Summary All Info Subjects.csv
 
 # import the necessary packages
 from os import listdir
@@ -19,10 +22,10 @@ import matplotlib.pyplot as plt
 Jpg = '.jpg'
 Csv = '.csv'
 # Shape predictor
-shape_predictor = "/media/qinxinlan/MoreSpace/BCI/Code/Algo/Computer vision/shape_predictor_68_face_landmarks.dat"
-input_images = "/media/qinxinlan/F44439C544398AFE/BCI/Data/Subjects/PhotoSubjectsWithLandmarks/Input/"
-save_path = "/media/qinxinlan/F44439C544398AFE/BCI/Data/Subjects/PhotoSubjectsWithLandmarks/"
-save_csv = "/media/qinxinlan/F44439C544398AFE/BCI/Data/Subjects/"
+shape_predictor = "path-to-predictor/shape_predictor_68_face_landmarks.dat"
+input_images = "path-to-input-images"
+save_path = "path-to-save"
+save_csv = "path-to-save-csv"
 images = [input_images + l.split(Jpg)[0] + Jpg for l in listdir(input_images) if len(l.split(Jpg)[0])==3]
 
 # define a dictionary that maps the indexes of the facial
@@ -131,10 +134,8 @@ for image in images: # image = images[9]
     print(name)
     # load the input image, resize it, and convert it to grayscale
     image = cv2.imread(image)
-    # plt.imshow(image)
     image = imutils.resize(image, width=500)
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    # plt.imshow(gray)
     # detect faces in the grayscale image
     rects = detector(gray, 1)
     if len(rects) == 0:
@@ -148,16 +149,10 @@ for image in images: # image = images[9]
         shape = face_utils.shape_to_np(shape)
         
         # visualize all facial landmarks with a transparent overlay
-        # output = visualize_facial_landmarks(image, shape, alpha = 0.95)
-        # cv2.putText(output, name, (10, 30), cv2.FONT_HERSHEY_SIMPLEX,
-        #             0.7, (0, 0, 255), 2)
         output = visualize_facial_landmarks(image, shape, colors = (163, 38, 32), alpha = 0.95)
         
-        # plt.imshow(output)
-        # if not isfile(save_path + name + Jpg):
-        #     cv2.imwrite(save_path + name + Jpg, output)
-        if not isfile('/media/qinxinlan/MoreSpace/BCI/Papers/My papers/Paper Dataset/FacialLandmarks.jpg'):
-            cv2.imwrite('/media/qinxinlan/MoreSpace/BCI/Papers/My papers/Paper Dataset/FacialLandmarks.jpg', output)
+        if not isfile('path-to-image/FacialLandmarks.jpg'):
+            cv2.imwrite('path-to-image/FacialLandmarks.jpg', output)
     res = pand.concat([res.reset_index(drop=True), pand.Series(shape.reshape(68*2)).rename(name)], axis=1)
 
 # The Facial Landmarks are calculated in pixels.
@@ -167,7 +162,8 @@ for image in images: # image = images[9]
 # proportional to the skull diameter
 # The skull diameter (in cm) is recorded in Participants Info.csv
 Info = pand.read_csv(save_csv + 'Participants Info' + Csv)
-addRes = pand.DataFrame( ['Jaw_Width_Px', 'LE','RE','LEB','REB','IED','IEBD','OED','OEBD','NC'], columns=['FacialLandmarks'] )
+# addRes = pand.DataFrame( ['Jaw_Width_Px', 'LE','RE','LEB','REB','IED','IEBD','OED','OEBD','NC'], columns=['FacialLandmarks'] )
+addRes = pand.DataFrame( ['Jaw_Width_Px', 'LE','RE','IED','OED','NC'], columns=['FacialLandmarks'] )
 for Sub in  Info['Subjects'].tolist():
     # Pixel distance jaw width between 1 and 17
     jawPix = pixel_distance(1, 17)
