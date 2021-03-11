@@ -14,7 +14,7 @@ sep = os.sep
 Neuroscan = 'Neuroscan'
 
 
-parentFile = 'D:\\BCI\\Experiments\\Blinks and BCI\\Data' 
+parentFile = 'your-path-to-file' 
 filePath = parentFile+sep+today+sep+Neuroscan
 
 # Getting the files order
