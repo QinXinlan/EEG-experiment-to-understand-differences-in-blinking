@@ -34,4 +34,4 @@ All sampling rates should be proportional to the ~300 Hz from Tobii TX300. To pr
 # Automated Python code
 A Python code is launched at the beginning of the experiment. The E-Prime computer is designated as the control station, sending commands to the Tobii computer and to the computer for Neuroscan and Phantom. Thereby, recordings are automatically started and stopped. At the beginning of each task, input the name of the file you want to create. When the recording has stopped, write "copy". Beware not to move the mouse or write anything on the computer, while the code is running.
 
-
+![name-of-you-image](https://raw.githubusercontent.com/QinXinlan/EEG-experiment-to-understand-differences-in-blinking/master/Experiment%20setup/Experiment%20flowchart.png)
