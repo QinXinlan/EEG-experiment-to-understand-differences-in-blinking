@@ -5,6 +5,8 @@ Created on Thu Sep 13 14:16:20 2018
 @author: QinXinlan
 """
 
+## Automatic save of the Tobii files when you are too lazy to manually click on save for each file
+
 import os, glob, pyautogui, time
 
 waitTobii = 124
@@ -27,7 +29,7 @@ for i in range(0,len(filesOrder)): names.append(filesOrder[i].split(Cnt)[0])
 print(names)
 
 time.sleep(1)
-# Step 0: Change to Teamviewer Software
+# Step 0: Change to Teamviewer Software (optional)
 pyautogui.hotkey('win','9')
 time.sleep(1)
 Team_x = 716
