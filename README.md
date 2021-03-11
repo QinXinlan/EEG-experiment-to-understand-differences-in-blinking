@@ -15,7 +15,7 @@ The goal of the present design is to find a blink model explaining the physiolog
 * 1 StimTracker to convert light trigger to binary trigger readable by Tobii software
 * lots of cables...
 
-
+![name-of-you-image](https://raw.githubusercontent.com/QinXinlan/EEG-experiment-to-understand-differences-in-blinking/master/Experiment%20setup/Enviromental%20setup.png)
 
 # EEG recording device: Neuroscan
 During this experiment, subjects were seated in an electrically-shielded noise-proof chamber, designed specifically for EEG recordings. A 65 channel Quik-cap acquired signals through a SynAmps2 system connected to an amplifier (Compumedics, Neuroscan). 62 EEG electrodes were placed according to the extended 10/20 system. The reference was located on the right mastoid with the ground electrode on the forehead. A bipolar vertical electrooculographic (EOG) channel records the potentials around the left eye, whereas two electromyographic (EMG) electrodes were attached at the middle of the upper and lower right eyelid. The EEG/EOG/EMG signals were recorded at a 1000 Hz sampling frequency directly on the Neuroscan software.
