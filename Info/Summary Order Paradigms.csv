@@ -1,0 +1,316 @@
+,Subject,Session,Paradigm,Alertness
+1,S01,Sess01,ME,Rested
+2,S01,Sess01,MI,Slightly tired
+3,S01,Sess01,SSVEP,Slighly tired
+4,S01,Sess01,P3004L,Slighly tired
+5,S01,Sess01,P3005L,Moderate fatigue
+6,S02,Sess01,MI,Extreme fatigue
+7,S02,Sess01,P3005L,Moderate fatigue
+8,S02,Sess01,P3004L,Moderate fatigue
+9,S02,Sess01,ME,Slightly tired
+10,S02,Sess01,SSVEP,Moderate fatigue
+11,S02,Sess02,MI,Slightly tired
+12,S02,Sess02,ME,Slightly tired
+13,S02,Sess02,P3004L,Slightly tired
+14,S02,Sess02,P3005L,Slightly tired
+15,S02,Sess02,SSVEP,Slightly tired
+16,S02,Sess03,P3004L,Rested
+17,S02,Sess03,P3005L,Rested
+18,S02,Sess03,ME,Rested
+19,S02,Sess03,MI,Rested
+20,S02,Sess03,SSVEP,Rested
+21,S03,Sess01,ME,Slightly tired
+22,S03,Sess01,MI,Slightly tired
+23,S03,Sess01,SSVEP,Moderate fatigue
+24,S03,Sess01,P3004L,Moderate fatigue
+25,S03,Sess01,P3005L,Moderate fatigue
+26,S03,Sess02,ME,Rested
+27,S03,Sess02,MI,Rested
+28,S03,Sess02,SSVEP,Rested
+29,S03,Sess02,P3004L,NA
+30,S03,Sess02,P3005L,NA
+31,S03,Sess03,ME,Moderate fatigue
+32,S03,Sess03,MI,Extreme fatigue
+33,S03,Sess03,SSVEP,Extreme fatigue
+34,S03,Sess03,P3004L,Extreme fatigue
+35,S03,Sess03,P3005L,Moderate fatigue
+36,S04,Sess01,ME,Rested
+37,S04,Sess01,MI,Rested
+38,S04,Sess01,SSVEP,Slightly tired
+39,S04,Sess01,P3004L,Slightly tired
+40,S04,Sess01,P3005L,Moderate fatigue
+41,S04,Sess02,P3004L,Slightly tired
+42,S04,Sess02,ME,Slightly tired
+43,S04,Sess02,SSVEP,Slightly tired
+44,S04,Sess02,MI,Moderate fatigue
+45,S04,Sess02,P3005L,Moderate fatigue
+46,S04,Sess03,SSVEP,Rested
+47,S04,Sess03,P3004L,Rested
+48,S04,Sess03,ME,Rested
+49,S04,Sess03,MI,Slightly tired
+50,S04,Sess03,P3005L,Slightly tired
+51,S05,Sess01,ME,Rested
+52,S05,Sess01,MI,Slightly tired
+53,S05,Sess01,SSVEP,Extreme fatigue
+54,S05,Sess01,P3004L,Extreme fatigue
+55,S05,Sess01,P3005L,Extreme fatigue
+56,S05,Sess02,ME,Slightly tired
+57,S05,Sess02,P3004L,Slightly tired
+58,S05,Sess02,SSVEP,Slightly tired
+59,S05,Sess02,P3005L,Slightly tired
+60,S05,Sess02,MI,Rested
+61,S05,Sess03,P3005L,Rested
+62,S05,Sess03,P3004L,Slightly tired
+63,S05,Sess03,SSVEP,Slightly tired
+64,S05,Sess03,MI,Moderate fatigue
+65,S05,Sess03,ME,Slightly tired
+66,S06,Sess01,ME,Slightly tired
+67,S06,Sess01,MI,Slightly tired
+68,S06,Sess01,SSVEP,Slightly tired
+69,S06,Sess01,P3004L,Slightly tired
+70,S06,Sess01,P3005L,Slightly tired
+71,S07,Sess01,ME,Rested
+72,S07,Sess01,MI,Rested
+73,S07,Sess01,SSVEP,Slightly tired
+74,S07,Sess01,P3004L,Moderate fatigue
+75,S07,Sess01,P3005L,Moderate fatigue
+76,S07,Sess02,ME,Rested
+77,S07,Sess02,P3005L,Rested
+78,S07,Sess02,MI,Rested
+79,S07,Sess02,SSVEP,Slightly tired
+80,S07,Sess02,P3004L,Slightly tired
+81,S07,Sess03,MI,Rested
+82,S07,Sess03,SSVEP,Slightly tired
+83,S07,Sess03,ME,Rested
+84,S07,Sess03,P3004L,Rested
+85,S07,Sess03,P3005L,Rested
+86,S08,Sess01,ME,"1: rested, 1bis: slightly tired"
+87,S08,Sess01,MI,Moderate fatigue
+88,S08,Sess01,SSVEP,Extreme fatigue
+89,S08,Sess01,P3004L,Moderate fatigue
+90,S08,Sess01,P3005L,Extreme fatigue
+91,S08,Sess02,P3004L,Moderate fatigue
+92,S08,Sess02,MI,Slightly tired
+93,S08,Sess02,P3005L,Moderate fatigue
+94,S08,Sess02,SSVEP,Extreme fatigue
+95,S08,Sess02,ME,Extreme fatigue
+96,S08,Sess03,P3005L,Slightly tired
+97,S08,Sess03,MI,Slightly tired
+98,S08,Sess03,ME,Slightly tired
+99,S08,Sess03,SSVEP,Slightly tired
+100,S08,Sess03,P3004L,Slightly tired
+101,S09,Sess01,ME,Slightly tired
+102,S09,Sess01,MI,Slighly tired
+103,S09,Sess01,SSVEP,Moderate fatigue
+104,S09,Sess01,P3004L,Moderate fatigue
+105,S09,Sess01,P3005L,Moderate fatigue
+106,S09,Sess02,ME,Moderate fatigue
+107,S09,Sess02,MI,Moderate fatigue
+108,S09,Sess02,P3004L,Extreme fatigue
+109,S09,Sess02,SSVEP,Extreme fatigue
+110,S09,Sess02,P3005L,Extreme fatigue
+111,S09,Sess03,ME,Slightly tired
+112,S09,Sess03,P3004L,Slightly tired
+113,S09,Sess03,MI,Extreme fatigue
+114,S09,Sess03,SSVEP,Slightly tired
+115,S09,Sess03,P3005L,Moderate fatigue
+116,S10,Sess01,P3004L,Moderate fatigue
+117,S10,Sess01,MI,Moderate fatigue
+118,S10,Sess01,ME,Moderate fatigue
+119,S10,Sess01,SSVEP,Moderate fatigue
+120,S10,Sess01,P3005L,Moderate fatigue
+121,S10,Sess02,ME,Slightly tired
+122,S10,Sess02,MI,Moderate fatigue
+123,S10,Sess02,SSVEP,Moderate fatigue
+124,S10,Sess02,P3005L,Moderate fatigue
+125,S10,Sess02,P3004L,Moderate fatigue
+126,S11,Sess01,SSVEP,Moderate fatigue
+127,S11,Sess01,P3005L,Moderate fatigue
+128,S11,Sess01,ME,Extreme fatigue
+129,S11,Sess01,MI,Extreme fatigue
+130,S11,Sess01,P3004L,Moderate fatigue
+131,S12,Sess01,MI,Moderate fatigue
+132,S12,Sess01,P3004L,Extreme fatigue
+133,S12,Sess01,SSVEP,Slightly tired
+134,S12,Sess01,P3005L,Moderate fatigue
+135,S12,Sess01,ME,Slightly tired
+136,S12,Sess02,SSVEP,Extreme fatigue
+137,S12,Sess02,P3004L,Moderate fatigue
+138,S12,Sess02,P3005L,Rested
+139,S12,Sess02,ME,Rested
+140,S12,Sess02,MI,Rested
+141,S12,Sess03,P3005L,Moderate fatigue
+142,S12,Sess03,ME,Slightly tired
+143,S12,Sess03,SSVEP,Slightly tired
+144,S12,Sess03,P3004L,Rested
+145,S12,Sess03,MI,Rested
+146,S13,Sess01,P3004L,Moderate fatigue
+147,S13,Sess01,ME,Slightly tired
+148,S13,Sess01,MI,Moderate fatigue
+149,S13,Sess01,SSVEP,Moderate fatigue
+150,S13,Sess01,P3005L,Moderate fatigue
+151,S13,Sess02,P3004L,Moderate fatigue
+152,S13,Sess02,SSVEP,Moderate fatigue
+153,S13,Sess02,MI,Moderate fatigue
+154,S13,Sess02,ME,Moderate fatigue
+155,S13,Sess02,P3005L,Moderate fatigue
+156,S13,Sess03,P3004L,Moderate fatigue
+157,S13,Sess03,ME,Extreme fatigue
+158,S13,Sess03,SSVEP,Extreme fatigue
+159,S13,Sess03,P3005L,Extreme fatigue
+160,S13,Sess03,MI,Moderate fatigue
+161,S14,Sess01,P3004L,Slightly tired
+162,S14,Sess01,ME,Rested
+163,S14,Sess01,P3005L,Slightly tired
+164,S14,Sess01,SSVEP,Moderate fatigue
+165,S14,Sess01,MI,Slightly tired
+166,S14,Sess02,SSVEP,Slightly tired
+167,S14,Sess02,ME,Rested
+168,S14,Sess02,P3004L,Moderate fatigue
+169,S14,Sess02,MI,Slightly tired
+170,S14,Sess02,P3005L,Slightly tired
+171,S14,Sess03,SSVEP,Rested
+172,S14,Sess03,P3005L,Moderate fatigue
+173,S14,Sess03,ME,Rested
+174,S14,Sess03,MI,Moderate fatigue
+175,S14,Sess03,P3004L,Slightly tired
+176,S15,Sess01,P3004L,Rested
+177,S15,Sess01,ME,Slightly tired
+178,S15,Sess01,P3005L,Slightly tired
+179,S15,Sess01,SSVEP,Slightly tired
+180,S15,Sess01,MI,Moderate fatigue
+181,S15,Sess02,P3004L,Slightly tired
+182,S15,Sess02,ME,Slightly tired
+183,S15,Sess02,SSVEP,Slightly tired
+184,S15,Sess02,P3005L,Moderate fatigue
+185,S15,Sess02,MI,Moderate fatigue
+186,S15,Sess03,P3005L,Slightly tired
+187,S15,Sess03,SSVEP,Moderate fatigue
+188,S15,Sess03,MI,Slightly tired
+189,S15,Sess03,P3004L,Moderate fatigue
+190,S15,Sess03,ME,Moderate fatigue
+191,S16,Sess01,P3004L,Moderate fatigue
+192,S16,Sess01,MI,Moderate fatigue
+193,S16,Sess01,ME,Slightly tired
+194,S16,Sess01,P3005L,Extreme fatigue
+195,S16,Sess01,SSVEP,Slightly tired
+196,S16,Sess02,P3005L,Moderate fatigue
+197,S16,Sess02,P3004L,Moderate fatigue
+198,S16,Sess02,ME,Slightly tired
+199,S16,Sess02,MI,Moderate fatigue
+200,S16,Sess02,SSVEP,Slightly tired
+201,S16,Sess03,SSVEP,Slightly tired
+202,S16,Sess03,P3004L,Moderate fatigue
+203,S16,Sess03,MI,Slightly tired
+204,S16,Sess03,ME,Rested
+205,S16,Sess03,P3005L,Slightly tired
+206,S17,Sess01,P3004L,Moderate fatigue
+207,S17,Sess01,MI,Extreme fatigue
+208,S17,Sess01,P3005L,Moderate fatigue
+209,S17,Sess01,ME,Moderate fatigue
+210,S17,Sess01,SSVEP,Extreme fatigue
+211,S17,Sess02,SSVEP,Slightly tired
+212,S17,Sess02,P3005L,Moderate fatigue
+213,S17,Sess02,ME,Moderate fatigue
+214,S17,Sess02,MI,Moderate fatigue
+215,S17,Sess02,P3004L,Slightly tired
+216,S17,Sess03,P3005L,Slightly tired
+217,S17,Sess03,SSVEP,Slightly tired
+218,S17,Sess03,MI,Slightly tired
+219,S17,Sess03,P3004L,Moderate fatigue
+220,S17,Sess03,ME,Slightly tired
+221,S18,Sess01,MI,Slightly tired
+222,S18,Sess01,P3005L,Slightly tired
+223,S18,Sess01,ME,Slightly tired
+224,S18,Sess01,SSVEP,Slightly tired
+225,S18,Sess01,P3004L,Slightly tired
+226,S18,Sess02,P3005L,Slightly tired
+227,S18,Sess02,SSVEP,Moderate fatigue
+228,S18,Sess02,ME,Moderate fatigue
+229,S18,Sess02,MI,Moderate fatigue
+230,S18,Sess02,P3004L,Moderate fatigue
+231,S18,Sess03,MI,Moderate fatigue
+232,S18,Sess03,ME,Moderate fatigue
+233,S18,Sess03,P3004L,Moderate fatigue
+234,S18,Sess03,SSVEP,Moderate fatigue
+235,S18,Sess03,P3005L,Moderate fatigue
+236,S19,Sess01,SSVEP,Rested
+237,S19,Sess01,ME,Rested
+238,S19,Sess01,P3004L,Rested
+239,S19,Sess01,P3005L,Rested
+240,S19,Sess01,MI,Rested
+241,S20,Sess01,P3005L,Slightly tired
+242,S20,Sess01,P3004L,Slightly tired
+243,S20,Sess01,SSVEP,Moderate fatigue
+244,S20,Sess01,ME,Moderate fatigue
+245,S20,Sess01,MI,Extreme fatigue
+246,S21,Sess01,ME,Slightly tired
+247,S21,Sess01,P3004L,Slightly tired
+248,S21,Sess01,P3005L,Moderate fatigue
+249,S21,Sess01,SSVEP,Moderate fatigue
+250,S21,Sess01,MI,Moderate fatigue
+251,S22,Sess01,ME,Slightly tired
+252,S22,Sess01,SSVEP,Slightly tired
+253,S22,Sess01,MI,Moderate fatigue
+254,S22,Sess01,P3004L,Moderate fatigue
+255,S22,Sess01,P3005L,Extreme fatigue
+256,S23,Sess01,SSVEP,Moderate fatigue
+257,S23,Sess01,P3005L,Extreme fatigue
+258,S23,Sess01,ME,Slightly tired
+259,S23,Sess01,MI,Extreme fatigue
+260,S23,Sess01,P3004L,Moderate fatigue
+261,S23,Sess02,SSVEP,Slightly tired
+262,S23,Sess02,P3005L,Slightly tired
+263,S23,Sess02,MI,Slightly tired
+264,S23,Sess02,ME,Slightly tired
+265,S23,Sess02,P3004L,Moderate fatigue
+266,S23,Sess03,P3004L,Slightly tired
+267,S23,Sess03,ME,Slightly tired
+268,S23,Sess03,MI,Slightly tired
+269,S23,Sess03,P3005L,Moderate fatigue
+270,S23,Sess03,SSVEP,Extreme fatigue
+271,S24,Sess01,P3005L,Slightly tired
+272,S24,Sess01,P3004L,Moderate fatigue
+273,S24,Sess01,SSVEP,Moderate fatigue
+274,S24,Sess01,ME,Moderate fatigue
+275,S24,Sess01,MI,Moderate fatigue
+276,S25,Sess01,P3005L,Slightly tired
+277,S25,Sess01,SSVEP,Slightly tired
+278,S25,Sess01,P3004L,Moderate fatigue
+279,S25,Sess01,MI,Moderate fatigue
+280,S25,Sess01,ME,NA
+281,S25,Sess02,ME,Rested
+282,S25,Sess02,SSVEP,Rested
+283,S25,Sess02,MI,Slightly tired
+284,S25,Sess02,P3005L,Slightly tired
+285,S25,Sess02,P3004L,Slightly tired
+286,S26,Sess01,MI,Moderate fatigue
+287,S26,Sess01,P3005L,Slightly tired
+288,S26,Sess01,ME,Slightly tired
+289,S26,Sess01,SSVEP,Rested
+290,S26,Sess01,P3004L,Slightly tired
+291,S27,Sess01,SSVEP,Slightly tired
+292,S27,Sess01,P3004L,Slightly tired
+293,S27,Sess01,P3005L,Slightly tired
+294,S27,Sess01,ME,Slightly tired
+295,S27,Sess01,MI,Slightly tired
+296,S28,Sess01,ME,Moderate fatigue
+297,S28,Sess01,MI,Moderate fatigue
+298,S28,Sess01,SSVEP,Moderate fatigue
+299,S28,Sess01,P3004L,Moderate fatigue
+300,S28,Sess01,P3005L,Extreme fatigue
+301,S29,Sess01,SSVEP,Rested
+302,S29,Sess01,ME,Rested
+303,S29,Sess01,P3005L,Slightly tired
+304,S29,Sess01,MI,Rested
+305,S29,Sess01,P3004L,Rested
+306,S30,Sess01,SSVEP,Moderate fatigue
+307,S30,Sess01,ME,Slightly tired
+308,S30,Sess01,P3005L,Extreme fatigue
+309,S30,Sess01,MI,Moderate fatigue
+310,S30,Sess01,P3004L,Slightly tired
+311,S31,Sess01,SSVEP,Slightly tired
+312,S31,Sess01,P3004L,Moderate fatigue
+313,S31,Sess01,ME,Slightly tired
+314,S31,Sess01,MI,Moderate fatigue
+315,S31,Sess01,P3005L,Moderate fatigue
