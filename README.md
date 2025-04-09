@@ -2,7 +2,7 @@
 
 The provided codes could be used for any BCI experiment in which several devices are needed to record simultaneously.
 
-This Brain-Computer Interface (BCI) experiment has been designed and carried out as part of my Ph.D. in Computational Neuroscience at Shanghai Jiaotong University. For a full description of the dataset, please refer to
+This Brain-Computer Interface (BCI) experiment has been designed and carried out as part of my Ph.D. in Computational Neuroscience at Shanghai Jiaotong University. For a full description of the dataset, please refer to:
 
 🔗 Guttmann-Flury, E., Sheng, X. & Zhu, X. Dataset combining EEG, eye-tracking, and high-speed video for ocular activity analysis across BCI paradigms. Sci Data 12, 587 (2025). https://doi.org/10.1038/s41597-025-04861-9.
 
