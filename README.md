@@ -2,10 +2,11 @@
 
 The provided codes could be used for any BCI experiment in which several devices are needed to record simultaneously.
 
-This Brain-Computer Interface (BCI) experiment has been designed and carried out as part of my Ph.D. in Computational Neuroscience at Shanghai Jiaotong University. For a full description of the dataset, please refer to Guttmann-Flury, E., Sheng, X. & Zhu, X. Dataset combining EEG, eye-tracking, and high-speed video for ocular activity analysis across BCI paradigms. Sci Data 12, 587 (2025). https://doi.org/10.1038/s41597-025-04861-9.
+This Brain-Computer Interface (BCI) experiment has been designed and carried out as part of my Ph.D. in Computational Neuroscience at Shanghai Jiaotong University. For a full description of the dataset, please refer to
+🔗 Guttmann-Flury, E., Sheng, X. & Zhu, X. Dataset combining EEG, eye-tracking, and high-speed video for ocular activity analysis across BCI paradigms. Sci Data 12, 587 (2025). https://doi.org/10.1038/s41597-025-04861-9.
 
 The dataset is available online at:
-https://www.synapse.org/Synapse:syn64005218/wiki/630018
+📂 https://www.synapse.org/Synapse:syn64005218/wiki/630018
 
 The goal of the present design is to find a blink model explaining the physiology by non-invasively recording various aspects of blinking, eye movements and their impacts on Electroencephalographic (EEG) signals. The hypothesis that eyelid movements substantially alter the EEG potential leads to the necessity to record the EEG, the eyelid position, as well as the eyeball movements. Hence, three devices were recording simultaneously, while the E-Prime software was sending triggers and displaying instructions on the Presentation screen.
 
